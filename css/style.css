@@ -1,0 +1,27 @@
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1em;
+}
+
+/* Header and navigation styling */
+.wrapper {
+    text-align: center;
+}
+
+.site-nav li {
+    display: block;
+    padding: 8px;
+    margin-left: 0;
+    
+}
+
+.site-nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+}
