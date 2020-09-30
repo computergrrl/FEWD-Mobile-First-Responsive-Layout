@@ -14,10 +14,15 @@ body {
     text-align: center;
 }
 
-.site-nav li {
+.site-nav {
+    padding-left: 0;
+}
+
+.site-nav li, a {
     display: block;
     padding: 8px;
-    margin-left: 0;
+    margin: 10px 8px;
+    
     
 }
 
