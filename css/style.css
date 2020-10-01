@@ -8,17 +8,22 @@ body {
     background: rgb(247, 243, 243);
 }
 
-/* Header and navigation styling */
-.container {
+/****************************
+Header and navigation styling
+******************************/
+
+.wrapper {
     margin: 0 auto;
     max-width: 1100px;
     font-family: 'Ubuntu', sans-serif;
     padding-bottom: 20px;
     text-align: center;
   }
+
 .name {
-    font-weight: 800;
+    font-weight: 900;
 }
+
 
 .site-nav {
    
@@ -47,19 +52,26 @@ body {
     color: #5bd4c6; 
 }
 
-/* Page Layout styling */
+/***********************
+ Page Layout styling 
+ *************************/
 
 
-img {
-    max-width: 100%;
-}
 
-p {
+.container {
+    margin: 0 auto;
+    max-width: 1100px;
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+.container p {
+    
     font-size: 1.2em;
     margin-bottom: 25px;
-    
+        
 }
-
 .box h1, h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -70,7 +82,7 @@ p {
     float: right;
 }
 .box {
-    display: block;
+    float: left;
     margin: 15px 10px;
     max-width: 100%;
     height: 250px;
@@ -78,6 +90,13 @@ p {
     letter-spacing: 1px;
     padding-top: 5px;
   }
+
+  .box img {
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 
   .clearfix::after {
     content: "";
