@@ -74,7 +74,7 @@ img {
     margin-bottom: 25px;
         
 }
-.box h1, h2 {
+.col h1, h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
@@ -83,17 +83,16 @@ img {
     padding: 5px;
     /* float: right; */
 }
-.box {
+.col {
     float: left;
-    margin: 15px 10px;
+    margin: 15px 15px;
     max-width: 100%;
-    /* min-height: 250px; */
     text-align: center;
     letter-spacing: 1px;
     padding-top: 5px;
   }
 
-  .box img {
+  .col img {
     max-width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -106,4 +105,54 @@ img {
     display: table;
    }
 
-  
+  /********************************
+  Footer navigation & styling 
+  ***********************************/
+
+  .footer-nav li {
+    display: block;
+    padding: 8px;
+    font-size: 1.2em;
+    font-weight: 700;
+    background-color: #fff;
+    margin: 10px 20px;
+    
+}
+
+.footer-nav a {
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    
+}
+
+.footer-nav a:hover {
+    color: #5bd4c6; 
+}
+
+/*******************************
+Media width breakpoints  
+********************************/
+
+@media (min-width: 768px) {
+
+    
+    .container {
+        text-align: left;
+    }
+
+    .col  {
+        float: left;
+        width: 50%;
+        min-height: 100px;
+       
+    }
+
+    
+
+    .site-nav li {
+        display: inline-block;
+        background: rgb(247, 243, 243);
+    }
+}
