@@ -137,22 +137,27 @@ Media width breakpoints
 
 @media (min-width: 768px) {
 
-    
-    .container {
-        text-align: left;
+    .site-nav li {
+        display: inline-block;
+        background: rgb(247, 243, 243);
     }
+    /* .container {
+        display: inline-block;
+         
+    } */
 
     .col  {
         float: left;
+        margin: 5px 0 5px 0;
         width: 50%;
-        min-height: 100px;
+        padding-right: 15px;
+        padding-left: 15px;
+        
+        min-height: 400px;
        
     }
 
     
 
-    .site-nav li {
-        display: inline-block;
-        background: rgb(247, 243, 243);
-    }
+   
 }
