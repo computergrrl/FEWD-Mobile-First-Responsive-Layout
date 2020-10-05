@@ -20,6 +20,10 @@ Header and navigation styling
     text-align: center;
   }
 
+  .wrapper p {
+      font-size: 1.2em;
+  }
+
 .name {
     font-weight: 900;
 }
@@ -141,10 +145,15 @@ Media width breakpoints
         display: inline-block;
         background: rgb(247, 243, 243);
     }
-    /* .container {
-        display: inline-block;
-         
-    } */
+    
+
+    header img {
+        float: right;
+    }
+
+    header p {
+        padding-top: 60px;
+    }
 
     .col  {
         float: left;
@@ -157,7 +166,31 @@ Media width breakpoints
        
     }
 
-    
-
+    .container div:nth-child(even) {
+        content: "";
+        clear: both;
+        display: table;
+    }
    
+}
+
+@media (min-width: 1024px) {
+
+
+    /* .container {
+        width: 100%;
+    } */
+
+    
+    .col  {
+        float: right;
+        margin: 5px 0 5px 0;
+        width: 33%;
+        overflow: auto;
+        /* padding-right: 15px;
+        padding-left: 15px; */
+        /* min-height: 400px; */
+       
+    }
+    
 }
