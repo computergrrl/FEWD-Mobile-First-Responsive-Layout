@@ -9,7 +9,7 @@ body {
 }
 
 /**************************************
-Header and navigation styling
+Header navigation styling
 ***************************************/
 
 .wrapper {
@@ -78,9 +78,10 @@ img {
     margin-bottom: 25px;
         
 }
-.col h1, h2 {
+.col h1 {
     font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+    font-size: 28px;
+    /* font-weight: 500; */
 }
 
 .profile-img {
@@ -150,10 +151,14 @@ Media width breakpoints
     header img {
         float: right;
         margin-left: 25px;
+        margin-right: 25px;
     }
 
     header p {
-        padding-top: 60px;
+        /* padding: 60px 15px 0 15px; */
+        padding: 60px 10px 0 10px;
+        margin: 0 25px;
+        text-align: left;
 
     }
 
