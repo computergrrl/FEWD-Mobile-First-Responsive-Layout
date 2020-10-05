@@ -114,6 +114,11 @@ img {
   Footer navigation & styling 
   ***********************************/
 
+  footer {
+      margin-top: 25px;
+      padding: 10px 
+  }
+
   .footer-nav li {
     display: block;
     padding: 8px;
@@ -146,7 +151,16 @@ Media width breakpoints
         display: inline-block;
         background: rgb(247, 243, 243);
     }
+
+    footer h2 {
+        float: left;
+    }
     
+    .footer-nav li {
+        float: right;
+        /* display: inline-block; */
+        background: rgb(247, 243, 243);
+    }
 
     header img {
         float: right;
