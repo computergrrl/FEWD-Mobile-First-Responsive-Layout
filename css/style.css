@@ -260,7 +260,30 @@ Media width breakpoints
 
 @media (min-width: 1024px) {
 
+    /* header .wrapper {
+        position: relative;
+    }
+
+    .site-nav {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    } 
+
+    header h1 {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+
+    } */
+
+    #home {
+        float: left;
+    }
     
+    .site-nav {
+        text-align: right;
+    }
     .col  {
         margin: 5px 0 5px 0;
         width: 33%;
