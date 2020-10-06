@@ -28,6 +28,7 @@ Header navigation styling
 
 #home {
     color: midnightblue;
+    margin-top: 10px;
 }
 
 
@@ -143,8 +144,10 @@ img {
   
   footer {
       margin-top: 5px;
-      padding: 10px 
+      padding: 10px 0px 10px 5px; 
   }
+
+  
 
   #contact {
       margin: 10px 25px 10px 25px auto;
