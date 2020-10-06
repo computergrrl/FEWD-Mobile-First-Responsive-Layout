@@ -150,11 +150,11 @@ img {
   
 
   #contact {
-      margin: 10px 25px 10px 25px auto;
+      margin: 10px 25px 10px 25px;
   }
 
   .contact-info {
-      font-weight: 1000;
+      font-weight: 900;
   }
 
   .footer-nav li {
