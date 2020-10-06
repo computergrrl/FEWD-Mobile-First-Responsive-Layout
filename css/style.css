@@ -143,8 +143,9 @@ img {
 
   
   footer {
-      margin-top: 5px;
-      padding: 10px 0px 10px 5px; 
+      margin: 0 auto;
+      padding: 10px 0px 10px 5px;
+      max-width: 1100px; 
   }
 
   
